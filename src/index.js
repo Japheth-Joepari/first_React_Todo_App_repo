@@ -2,10 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import './index.css';
-import Todo from './Todo';
-import TodoItems from './Todoitems'
+import Todo from './components/Todo';
+import TodoItems from './components/Todoitems';
+import Likes from './components/Likes'
+import LocalStorage from './components/LocalStorage'
 
 ReactDOM.render(
-  <Todo />,
+  <LocalStorage />,
   document.getElementById('root')
 );
